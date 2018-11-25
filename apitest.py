@@ -42,7 +42,7 @@ else:
 
 post_request = requests.post(api_url_base + '/hash',
                              data={
-                                 'session_id': login_json['session_id'],
+                                 'sess_id': login_json['session_id'],
                                  'blockchain': blockchain,
                                  'hash': hash,
                                  # 'meta_emails': '',
@@ -60,7 +60,7 @@ print(post_json)
 # Get a hash
 
 get_request = requests.get(
-    api_url_base + '/hash?hash=' + hash + '&blockchain=' + blockchain + '&session_id=' + login_json['session_id'])
+    api_url_base + '/hash?hash=' + hash + '&blockchain=' + blockchain + '&sess_id=' + login_json['session_id'])
 get_json = get_request.json()
 print(get_json)
 # get_json['message']
