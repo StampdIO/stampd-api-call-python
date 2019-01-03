@@ -66,4 +66,4 @@ print(get_json)
 # get_json['message']
 # get_json['type']
 # get_json['code']
-# get_json['transactionID']
+# get_json['txid']
