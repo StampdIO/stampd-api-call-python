@@ -1,49 +1,51 @@
 {
-    "schema_version": "2.0",
-    "issue": 4,
-    "issue_title": "docs: fix broken stampd.io link in README (https;// → https://)",
-    "repo": "StampdIO/stampd-api-call-python",
-    "phase": "BUILD",
-    "active_role": "engineer",
-    "iteration": 0,
-    "max_iterations": 3,
-    "started_at": "2026-06-11T00:00:00Z",
-    "last_active": "2026-06-11T00:05:00Z",
-    "next_action": "open_pr",
-    "checkpoints": [
-        {
-            "role": "architect",
-            "phase": "PLAN",
-            "ts": "2026-06-11T00:00:00Z",
-            "outcome": "ok",
-            "cost_usd": 0.05,
-            "notes": "ADR posted; risk_level=low"
-        },
-        {
-            "role": "engineer",
-            "phase": "BUILD",
-            "ts": "2026-06-11T00:05:00Z",
-            "outcome": "ok",
-            "cost_usd": 0.03,
-            "notes": "README.md link fixed https;// -> https://; docs-only, no tests (Python repo)"
-        }
-    ],
-    "cost_usd_cumulative": 0.05,
-    "cost_usd_cap": 5.00,
-    "halt": false,
-    "halt_reason": null,
-    "last_pr_number": null,
-    "last_pr_branch": "docs/4-fix-stampd-io-link",
-    "review_addressed": false,
-    "review_severity": null,
-    "review_comment_id_processed": null,
-    "plan_json_path": ".agent/4/plan.json",
-    "labels_applied": ["agent:auto"],
-    "model_per_role": {
-        "architect": "opus-4-7",
-        "engineer": "sonnet-4-6",
-        "reviewer-adversarial": "opus-4-7",
-        "address-feedback": "sonnet-4-6",
-        "retrospective": "haiku-4-5"
+  "schema_version": "2.0",
+  "issue": 4,
+  "issue_title": "docs: fix broken stampd.io link in README (https;// → https://)",
+  "repo": "StampdIO/stampd-api-call-python",
+  "phase": "BUILD",
+  "active_role": "engineer",
+  "iteration": 0,
+  "max_iterations": 3,
+  "started_at": "2026-06-11T00:00:00Z",
+  "last_active": "2026-06-11T00:05:00Z",
+  "next_action": "open_pr",
+  "checkpoints": [
+    {
+      "role": "architect",
+      "phase": "PLAN",
+      "ts": "2026-06-11T00:00:00Z",
+      "outcome": "ok",
+      "cost_usd": 0.05,
+      "notes": "ADR posted; risk_level=low"
+    },
+    {
+      "role": "engineer",
+      "phase": "BUILD",
+      "ts": "2026-06-11T00:05:00Z",
+      "outcome": "ok",
+      "cost_usd": 0.03,
+      "notes": "README.md link fixed https;// -> https://; docs-only, no tests (Python repo)"
     }
+  ],
+  "cost_usd_cumulative": 0.05,
+  "cost_usd_cap": 5.00,
+  "halt": false,
+  "halt_reason": null,
+  "last_pr_number": 5,
+  "last_pr_branch": "docs/4-fix-stampd-io-link",
+  "review_addressed": false,
+  "review_severity": null,
+  "review_comment_id_processed": null,
+  "plan_json_path": ".agent/4/plan.json",
+  "labels_applied": [
+    "agent:auto"
+  ],
+  "model_per_role": {
+    "architect": "opus-4-7",
+    "engineer": "sonnet-4-6",
+    "reviewer-adversarial": "opus-4-7",
+    "address-feedback": "sonnet-4-6",
+    "retrospective": "haiku-4-5"
+  }
 }
