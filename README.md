@@ -2,7 +2,7 @@
 
 Use our API to post a hash on the blockchain. This repository contains example code for using the stampd.io API.
 
-Visit [stampd.io](https;//stampd.io) to get your API credentials.
+Visit [stampd.io](https://stampd.io) to get your API credentials.
 
 ## Instructions
 

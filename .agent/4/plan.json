@@ -1,0 +1,15 @@
+{
+    "schema_version": "2.0",
+    "issue": 4,
+    "approach": "Single-character documentation fix. README.md line 5 contains a Markdown link whose URL scheme is mistyped as `https;//stampd.io` (semicolon). Replace the semicolon with a colon so the URL reads `https://stampd.io`, making the link resolve. No source code, behavior, or dependency changes.",
+    "files_to_touch": [
+        { "path": "README.md", "action": "modify", "reason": "fix mistyped URL scheme `https;//` → `https://` in the stampd.io link on line 5" }
+    ],
+    "tests_to_add": [
+        "Verify README.md contains the string `https://stampd.io` and no longer contains `https;//` (manual grep verification; no automated test framework warranted for a docs-only single-character fix)"
+    ],
+    "risk_level": "low",
+    "risk_reasons": [],
+    "estimated_loc": 1,
+    "rejection_reasons": []
+}
